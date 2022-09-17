@@ -1,0 +1,59 @@
+<div class="alert alert-warning" role="alert">
+  This page show the last 5 records.
+</div>
+
+<div class="card">
+  <div class="card-body">
+    Last events: <span class="badge text-bg-success">Success</span> 
+  </div>
+</div>
+
+{{#each eventos}}
+<div class="card mt-4">
+
+	{{#if type}}
+	Type: {{type}}<br>
+	{{/if}}
+	
+	{{#if call_id}}	
+	Call Id: {{call_id}}<br>
+	{{/if}}
+
+	{{#if code}}
+	Code: {{code}}<br>
+	{{/if}}
+
+	{{#if direction}}
+	Direction: {{direction}}<br>
+	{{/if}}
+
+	{{#if our_number}}
+	Our Number: {{our_number}}<br>
+	{{/if}}
+
+	{{#if their_number}}
+	Their Number: {{their_number}}<br>
+	{{/if}}
+
+	{{#if their_number_type}}
+	Their Number Type: {{their_number_type}}<br>
+	{{/if}}
+
+	{{#if timestamp}}
+	Timestamp: {{timestamp}}<br>
+	{{/if}}
+
+	{{#if url}}
+	Url: {{url}}<br>
+	{{/if}}
+
+	{{#if date}}
+	Date: {{date}}<br>
+	{{/if}}
+
+
+</div>
+
+{{else}}
+
+{{/each}}
