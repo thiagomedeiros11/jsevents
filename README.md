@@ -25,6 +25,8 @@ Inside the 'server.js' file, change your express web server to an available IP.
 On Nuvem Fone, set the same address on 'Integração de plataforma'.
 Check the package.json file and install the necessary packages.
 
+Just start your MongoDB and make sure you can connect on "mongodb://127.0.0.1/".
+
 ![Preview-Screens](https://github.com/thiagomedeiros11/jsevents/blob/main/nuvemfone-config.png)
 
 
