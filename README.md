@@ -35,7 +35,7 @@ Check the package.json file and install the necessary packages.
 - [MongoDB](https://github.com/mongodb/mongo)
 - [Mongoose](https://github.com/Automattic/mongoose)
 - [Bootstrap](https://getbootstrap.com/)
-- [ExpressJs]((https://github.com/expressjs/express)
+- [ExpressJs](https://github.com/expressjs/express)
 
 ## Questions or contributions
 
